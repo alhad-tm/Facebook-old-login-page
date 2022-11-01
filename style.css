@@ -1,152 +1,147 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-body{
-    margin: 0;
+body {
+  margin: 0;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: #3b5998;
+  display: flex;
+}
+
+header h1 {
+  color: white;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 45px;
+  padding-left: 140px;
 }
 
 
-.header{
-    width: 100%;
-    height: 80px;
-    background-color: #3b5998;
-    display: flex;
+.left-header {
+  width: 50%;
+  height: 150px;
 }
 
-header h1{
-    color: white;
-    font-family: Helvetica Neue,Helvetica, Arial, sans-serif;
-    font-size: 45px;
-    padding-left: 140px;
-    
+.right-header {
+  width: 50%;
+  height: 150px;
 }
-
-.table{
+.table {
     padding-top: 10px;
     padding-left: 50px;
-}
-
-
-.left-header{
-    width: 50%;
-    height: 150px;
-    
-}
-
-.right-header{
-    width:50%;
-    height: 150px;
-   
-}
-.login-label{
-    color: white;
-    font-family: Helvetica Neue,Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    
-}
-
-.btn-log{
-    color: aliceblue;
-    background-color: rgb(106, 106, 234);
-    border: none;
-    cursor: pointer;
-}
-.btn-log:hover{
-    background-color: rgb(77, 26, 204);
-}
-
-.forgotten{
-    color: rgba(255, 255, 255, 0.99);
-    font-size: 12px;
-    font-family: Helvetica Neue,Helvetica, Arial, sans-serif;
-    opacity: 0.7;
-    text-decoration: none;
-}
-
-.section-heading{
-    font-size: 40px;
-    font-family:Helvetica Neue,Helvetica, Arial, sans-serif;
-}
-
-.section{
-    height: 470px;
-}
-.right-section{
-    height:370px;
-
-}
-
-.left-sec-head{
-    color:rgb(33, 33, 84);
-    font-size: 17px;
-    font-family:Helvetica Neue,Helvetica, Arial, sans-serif ;
-    margin-left: 75px;
-    margin-top: 22px;
-}
-
-.box{
-    height: 30px;
-    width: 140px;
+  }
   
-}
-.box-2{
-    height: 30px;
-    width: 280px;
-    
-    
-}
-.image{
-    width:450px;
-    height: 300px;
-    margin-left: 75px;
+
+.login-label {
+  color: white;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 12px;
 }
 
-.section{
-    display: flex;
-    background-color: rgba(253, 248, 248, 0.589);
+
+
+.btn-log {
+  color: aliceblue;
+  background-color: rgb(106, 106, 234);
+  border: none;
+  cursor: pointer;
+}
+.btn-log:hover {
+  background-color: rgb(77, 26, 204);
 }
 
-.right-section{
-    padding-left: 80px;
-    margin-top: -16px;
-
-}
-.quick{
-    margin-top: -20px;
-    font-family: Helvetica Neue,Helvetica, Arial, sans-serif;
-}
-.para-r{
-    font-family: Helvetica Neue,Helvetica, Arial, sans-serif;
-    font-size: 13px;
-    color: rgb(125, 123, 120);
+.forgotten {
+  color: rgba(255, 255, 255, 0.99);
+  font-size: 12px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  opacity: 0.7;
+  text-decoration: none;
 }
 
-.signup-btn{
-   background-color: rgb(18, 179, 67);
-   height: 30px;
-   width:150px;
-   border-radius: 0.4rem;
-   border: none;
-   color: white;
-   font-size: 15px;
-   font-weight: bold;
+
+
+.section {
+  height: 470px;
+}
+.right-section {
+  height: 370px;
 }
 
-.footer{
-    padding-left: 50px;
-    background-color: rgba(213, 218, 222, 0.211);
-    font-family:Helvetica Neue,Helvetica, Arial, sans-serif ;
-    font-size: 10px;
-    height: 85px;
+.left-sec-head {
+  color: rgb(33, 33, 84);
+  font-size: 17px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-left: 75px;
+  margin-top: 22px;
 }
 
-footer a{
-    text-decoration: none;
+.section-heading {
+    font-size: 40px;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  }
+
+.box {
+  height: 30px;
+  width: 140px;
+}
+.box-2 {
+  height: 30px;
+  width: 280px;
+}
+.image {
+  width: 450px;
+  height: 300px;
+  margin-left: 75px;
 }
 
-.footer-links{
-    word-spacing: 30px;
+.section {
+  display: flex;
+  background-color: rgba(253, 248, 248, 0.589);
+}
 
-    
+.right-section {
+  padding-left: 80px;
+  margin-top: -16px;
+}
+.quick {
+  margin-top: -20px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.para-r {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  color: rgb(125, 123, 120);
+}
+
+.signup-btn {
+  background-color: rgb(18, 179, 67);
+  height: 30px;
+  width: 150px;
+  border-radius: 0.4rem;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.footer {
+  padding-left: 50px;
+  background-color: rgba(213, 218, 222, 0.211);
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  height: 85px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.footer-links {
+  word-spacing: 30px;
 }
