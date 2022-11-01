@@ -15,13 +15,22 @@
         </div>
         <div class="right-header">
             <form action="">
-                <label for="Email or phone">Email or phone</label>
-                <input type="email or phone">
-                <label for="password">password</label>
-                <input type="password">
-                <h6>Forgetten account</h6>
-
-                <button>Log In</button>
+                <table class="table">
+                    <tr>
+                        <td><label class="login-label">Email or Phone</label></td>
+                        <td><label class="login-label">Password</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input class="btn-log" type="submit" value="Log In"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="forgotten">Forgotten account?</td>
+                    </tr>
+                </table>
+                
             </form>
 
         </div>
@@ -30,17 +39,18 @@
     <section class="section">
 
         <div class="left-section">
-        <h1 style="color:rgb(33, 33, 84)">Facebook helps you connect and share with the<br> people in your life</h1>
+        <h1 class="left-sec-head">Facebook helps you connect and share  with the people in your life</h1>
 
         <img class="image" src="fblogo.jpg" alt="">
         </div>
 
         <div class="right-section">
-            <h1>Create an account</h1>
-            <h4>It'S quick and easy.</h4>
-            <input type="text" placeholder="First name"> <input type="text" placeholder="Surname"><br>
-            <input type="number" placeholder="Mobile number or email address"><br>
-            <input type="password" placeholder="New password">
+            <h1 class="section-heading">Create an account</h1>
+            <h4  class="quick">It's quick and easy.</h4>
+            <input class="box" type="text" placeholder="First name"> 
+            <input  class="box" type="text" placeholder="Surname"><br><br>
+            <input  class="box-2"type="number" placeholder="Email"><br><br>
+            <input  class="box-2"type="password" placeholder="New password">
             <br> <br>
             <label>Birthday</label><br>
             <select >
@@ -56,22 +66,32 @@
                 <option>2012</option>
             </select>
             <br> <br>
-            <label>Gender</label>
+            <label style="color:rgb(66, 72, 72)">Gender</label>
             <br>
-            <label>Male</label>
+            <label style="font-weight: bold;">Male</label>
             <input type="radio">
-            <label>Female</label>
+            <label style="font-weight: bold;">Female</label>
             <input type="radio">
-            <label>Custom</label>
+            <label style="font-weight: bold;">Custom</label>
             <input type="radio">
-            <p>By clicking signup,you agree to our terms, data policy and cookie policy.You may receive
-                 sms notification from us and can opt out at any time.</p>
+            <p class="para-r">By clicking Signup,you agree to our <span  style="color:blue">Terms, Data Policy<br> </span> and <span  style="color:blue">Cookie policy</span>.You may receive
+                 sms notification from<br> us and can opt out at any time.</p>
 
-                 <button>Sign Up</button>
+                 <button class="signup-btn">Sign Up</button>
 
 
         </div>
     </section>
+
+    <footer class="footer">
+        <a href="#">English(uk) &nbsp;&nbsp; മലയാളം &nbsp;&nbsp; தமிழ்&nbsp;&nbsp; తెలుగు &nbsp;&nbsp;বাংলা&nbsp;&nbsp; हिन्दी &nbsp;&nbsp;Español &nbsp;&nbsp;Português(Brasil)&nbsp;&nbsp; Français(France) &nbsp;&nbsp;</a><button>+</button>
+        <hr>
+         <a class="footer-links" href="#">Sign_up  Login  Messenger Facebook_Lite  Watch  People  Pages Page_Categories  Places Games  Locations Market Groups Instagram
+            <br><br> Local Fundraisers Services About Creat_ad Create_Page Developers Careers Privacy Cookies AdChoices Help
+         </a>
+
+         <h6 style="color:rgb(66, 72, 72)">Facebook </h6>
+    </footer>
     
 </body>
 </html>
